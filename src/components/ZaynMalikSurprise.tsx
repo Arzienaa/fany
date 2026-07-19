@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, Heart, X, Sparkle } from "lucide-react";
 
 // Image generated earlier
-const ZAYN_IMAGE_PATH = "/src/assets/images/zayn_malik_pastel_surprise_1784444317497.jpg";
+import zaynImage from "../assets/images/zayn_malik_pastel_surprise_1784444317497.jpg";
 
 export default function ZaynMalikSurprise() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function ZaynMalikSurprise() {
         </motion.button>
       </div>
       <p className="text-xs text-brand-pink-dark/80 font-sans mt-2.5 animate-pulse">
-        (click to unlock Zayn Malik's secret message for you! 🤫🎵)
+        (click to unlock secret message 🤫🎵)
       </p>
 
       <AnimatePresence>
@@ -81,7 +81,7 @@ export default function ZaynMalikSurprise() {
                   ✨ happy birthday Ika ✨
                 </span>
                 <h3 className="font-cute text-xl font-bold text-brand-pink-deep">
-                  suami kamu ini nitip pesan ✨
+                  suami kamu in nitip pesan
                 </h3>
               </div>
 
@@ -89,7 +89,7 @@ export default function ZaynMalikSurprise() {
               <div className="relative mb-4 p-2 bg-white rounded-xl shadow-md border border-brand-pink-light/60 transform rotate-1 hover:rotate-0 transition-transform duration-300 max-w-[220px]">
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-yellow-medium/40 border border-brand-yellow-medium/60 h-6 w-16 -rotate-12 rounded-xs z-10" title="Sticky Tape decoration" />
                 <img
-                  src={ZAYN_IMAGE_PATH}
+                  src={zaynImage}
                   alt="Zayn Malik chibi"
                   referrerPolicy="no-referrer"
                   className="rounded-lg object-cover w-full h-auto"
