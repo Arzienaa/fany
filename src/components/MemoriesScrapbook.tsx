@@ -5,7 +5,7 @@ import { Camera, RefreshCw, Trash2 } from "lucide-react";
 // Paths of the generated placeholder illustrations
 const DEFAULT_MEMORIES = [
   {
-    placeholder: "/src/assets/images/memory_selfie_1784442906751.jpg",
+    placeholder: "/images/memory_selfie_1784442906751.jpg",
     caption: "us being us",
     rotation: "-3deg",
     borderColor: "border-brand-pink-medium",
@@ -13,15 +13,15 @@ const DEFAULT_MEMORIES = [
     tapeRotation: "-15deg",
   },
   {
-    placeholder: "/src/assets/images/memory_treat_1784442923532.jpg",
-    caption: "thank you for being my friend ♡",
+    placeholder: "/images/memory_treat_1784442923532.jpg",
+    caption: "thank you for being my friend",
     rotation: "2deg",
     borderColor: "border-brand-yellow-medium",
     tapeColor: "bg-brand-pink-medium/40",
     tapeRotation: "8deg",
   },
   {
-    placeholder: "/src/assets/images/memory_sunset_1784442940095.jpg",
+    placeholder: "/images/memory_sunset_1784442940095.jpg",
     caption: "more memories to come...",
     rotation: "-1.5deg",
     borderColor: "border-brand-pink-medium",
