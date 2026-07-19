@@ -1,0 +1,6 @@
+{
+  "name": "Happy Birthday Fany!",
+  "description": "A cute, soft, heartwarming digital birthday surprise for Rizkah Fany (Ika) with polaroid memories, interactive cake, and a playful Zayn Malik surprise.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

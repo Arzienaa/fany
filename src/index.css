@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Playpen+Sans:wght@300..800&family=Caveat:wght@400..700&family=Sacramento&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink-light: #FFF0F2;
+  --color-brand-pink-medium: #FDC2D0;
+  --color-brand-pink-dark: #F794A7;
+  --color-brand-pink-deep: #E06C84;
+  --color-brand-peach: #FFEFE2;
+  --color-brand-yellow-light: #FFF9DD;
+  --color-brand-yellow-medium: #FEE180;
+  --color-brand-yellow-dark: #D4A314;
+  --color-cream: #FFFDF9;
+  
+  --font-sans: "Playpen Sans", "Fredoka", ui-sans-serif, system-ui, sans-serif;
+  --font-cute: "Fredoka", sans-serif;
+  --font-handwritten: "Caveat", "Sacramento", cursive;
+}
+
+/* Custom global animations and styling */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(3deg);
+  }
+}
+
+@keyframes float-medium {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(-4deg);
+  }
+}
+
+@keyframes float-petal {
+  0% {
+    transform: translateY(-20px) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) translateX(50px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-medium 4s ease-in-out infinite;
+}
+
+body {
+  background-color: var(--color-brand-pink-light);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  color: #5C4A4D;
+}
+
+/* Custom Scrollbar for cute aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF0F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #FDC2D0;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F794A7;
+}
+
