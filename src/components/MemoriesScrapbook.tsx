@@ -1,11 +1,14 @@
 import { useState, useRef, useEffect, ChangeEvent, MouseEvent } from "react";
 import { motion } from "motion/react";
 import { Camera, RefreshCw, Trash2 } from "lucide-react";
+import memorySelfie from "../assets/images/memory_selfie_1784442906751.jpg";
+import memorySunset from "../assets/images/memory_sunset_1784442940095.jpg";
+import memoryTreat from "../assets/images/memory_treat_1784442923532.jpg";
 
 // Paths of the generated placeholder illustrations
 const DEFAULT_MEMORIES = [
   {
-    placeholder: "/images/memory_selfie_1784442906751.jpg",
+    placeholder: memorySelfie,
     caption: "us being us",
     rotation: "-3deg",
     borderColor: "border-brand-pink-medium",
@@ -13,7 +16,7 @@ const DEFAULT_MEMORIES = [
     tapeRotation: "-15deg",
   },
   {
-    placeholder: "/images/memory_treat_1784442923532.jpg",
+    placeholder: memoryTreat,
     caption: "thank you for being my friend",
     rotation: "2deg",
     borderColor: "border-brand-yellow-medium",
@@ -21,7 +24,7 @@ const DEFAULT_MEMORIES = [
     tapeRotation: "8deg",
   },
   {
-    placeholder: "/images/memory_sunset_1784442940095.jpg",
+    placeholder: memorySunset,
     caption: "more memories to come...",
     rotation: "-1.5deg",
     borderColor: "border-brand-pink-medium",
